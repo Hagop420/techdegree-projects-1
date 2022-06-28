@@ -1,0 +1,18 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 1s all ease-in-out;
+}
+
+.body_see {
+  opacity: 1;
+  transform: translateY(50px);
+}
+img {
+  height: 250px;
+}
+abbr:hover {
+  cursor: pointer;
+}
